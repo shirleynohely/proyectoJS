@@ -1,2 +1,2 @@
 # proyectoJS
-Ecommerce
+E-commerce
