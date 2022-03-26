@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa Lorenzo</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="js/consultar.js"></script>   
+    <script defer src="js/json.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header__flex">
+            <div>
+                <nav class="header__nav">
+                    <ul>
+                        <li><a href="#">Tienda</a></li>
+                        <li><a href="#">Sobre nosotros</a></li>
+                        <li><a href="#">Recetas</a></li>
+                        <li><a href="#">Contáctenos</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <a href="index.html"><img class="logo_img" src="./images/logo-alsedo-lorenzo-e-hijos.png" alt="logo-alsedo-lorenzo-e-hijos"></a>
+            </div>
+        </div>
+    </header>
+
+        <div>
+            <video src="./images/video.mp4" controls width="100%">Video</video>
+        </div>
+        <br>
+        <h4 align="center">Consultar el precio de los productos</h4>
+        
+            <form class="parent" id="form">
+                <label>
+                    <p>Seleccione el producto que desea:</p>  
+                </label>
+                <select id="producto" name="seleccionar">
+                    <option value=""></option>
+                    <option value="Chocolate blanco">Chocolate blanco</option>
+                    <option value="Chocolate negro">Chocolate negro</option>
+                    <option value="Chocolate semi amargo">Chocolate semi amargo</option>
+                    <option value="Chocolate amargo">Chocolate amargo</option>  
+                </select>
+                <label>
+                    <p>Ingrese cantidad:</p>
+                    </label>
+                <input type="number" id="cantidad" name="cantidad">
+                <label>
+                    <p>Ingrese precio de producto:</p>
+                </label>
+                    <input type="number" id="precio" name="precio">
+                
+                            
+            </form>
+            <div class="consultar">
+                <a href="javascript:void(0)" role="button" class="secondary" id="consultar" >AGREGAR PRODUCTO</a>
+            </div>
+            <br>
+            <div class="consultar">
+                <a href="javascript:void(0)" id="limpiar" class="secondary" role="button">LIMPIAR</a>
+            </div>
+             
+            <br>
+            <div id="tablap" name="tablap" style="display: none;">
+                <table border="1">
+                    <thead>
+                        <tr> 
+                            <th>Producto</th>
+                            <th>Cantidad</th>
+                            <th>Precio</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody id="tablaProductos">
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th colspan="3"></th>
+                            <th id="total"></th>
+                        </tr>
+                    </tfoot>   
+                </table>
+                
+            </div> 
+</body>
+<footer>
+    <div class="footer__flex">
+        <div>
+            <nav class="footer__nav">
+                <ul>
+                    <li><a href="#">Tienda</a></li>
+                    <li><a href="#">Sobre nosotros</a></li>
+                    <li><a href="#">Recetas</a></li>
+                    <li><a href="#">Contáctenos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</footer>
+</html>
