@@ -5,3 +5,4 @@ Desafíos:
 - Interactuar con HTML a través del DOM e incorporar Eventos.
 - Almacenar datos en el navegador con Storage y JSON.
 - Incorporación de librerías JS.
+- AJAX & Fetch
