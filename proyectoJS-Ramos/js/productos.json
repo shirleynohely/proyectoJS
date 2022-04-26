@@ -1,0 +1,74 @@
+[
+    {
+        "id":1,
+        "producto": "Chocolate blanco",
+        "precio": 1500,
+        "imagen": "images/chocolate-blanco.png"
+    },
+    {
+        "id":2,
+        "producto": "Cacao en polvo",
+        "precio": 2000,
+        "imagen": "images/cacao-polvo.png"
+    },
+    {
+        "id":3,
+        "producto": "Cacao amargo en polvo",
+        "precio": 1800,
+        "imagen": "images/cacao-polvo-amargo.png"
+    },
+    {
+        "id":4,
+        "producto": "Chocolate amargo 5 Kg",
+        "precio": 1500,
+        "imagen": "images/chocolate-amargo-alpino-5k.png"
+    },
+    {
+        "id":5,
+        "producto": "Chocolate blanco 5 Kg",
+        "precio": 4000,
+        "imagen": "images/chocolate-blanco-5k.png"
+    },
+    {
+        "id":6,
+        "producto": "Chocolate blanco para moldeo",
+        "precio": 1500,
+        "imagen": "images/chocolate-blanco-moldeo.png"
+    },
+    {
+        "id":7,
+        "producto": "Chocolate con leche",
+        "precio": 1500,
+        "imagen": "images/chocolate-con-leche.png"
+    },
+    {
+        "id":8,
+        "producto": "Chocolate con leche para moldeo",
+        "precio": 2300,
+        "imagen": "images/chocolate-con-leche-moldeo.png"
+    },
+    {
+        "id":9,
+        "producto": "Chocolate con leche ",
+        "precio": 1500,
+        "imagen": "images/chocolate-leche.png"
+    },
+    {
+        "id":10,
+        "producto": "Chocolate negro semiamargo",
+        "precio": 1800,
+        "imagen": "images/chocolate-negro-semiamargo.png"
+    },
+    {
+        "id":11,
+        "producto": "Chocolate semiamargo para repostería",
+        "precio": 1200,
+        "imagen": "images/chocolate-semiamargo-repo.png"
+    },
+    {
+        "id":12,
+        "producto": "Chocolate amargo para repostería",
+        "precio": 2400,
+        "imagen": "images/chocolate-semiamargo-repo2.png"
+    }
+]
